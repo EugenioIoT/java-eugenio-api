@@ -16,11 +16,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<eugenio.username>vcosta</eugenio.username>
-		<eugenio.password>vcosta123</eugenio.password>
-		<eugenio.tenant>eugenio_demo</eugenio.tenant>
+		<eugenio.username>username_change</eugenio.username>
+		<eugenio.password>password_change</eugenio.password>
+		<eugenio.tenant>tenant_change</eugenio.tenant>
 		<eugenio.uri>https://portal.stg.eugenio.io/api/v1</eugenio.uri>
-		<eugenio.apikey>DwHgwFyxRl1Rez3HOGKwUczoTfvwWomq</eugenio.apikey>
+		<eugenio.apikey>apikey_change</eugenio.apikey>
 	</properties>
 
 	<build>
