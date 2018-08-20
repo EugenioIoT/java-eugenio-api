@@ -26,12 +26,8 @@ First of all you need fill the pom.xml with valid Eugenio's login information.
 Then build the eugenio-client application using maven by the command below
 
 ```
-mvn install -DskipTests
+mvn install
 ```
+The JUnit Tests will be runned.
 
-So you can run the tests using JUnit Test using maven command line
-
-```
-mvn test
-```
 If you want to run the JUnit Test by the IDE, you need fill the file src/test/resources/eugenio-client.properties with valid Eugenio's login information.
