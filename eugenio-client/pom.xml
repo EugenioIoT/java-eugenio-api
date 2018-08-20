@@ -34,16 +34,17 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<resources>
-			<resource>
+		<testResources>
+			<testResource>
 				<directory>src/test/resources</directory>
 				<filtering>true</filtering>
-			</resource>
-		</resources>
+			</testResource>
+		</testResources>
 		<filters>
 			<filter>src/test/resources/eugenio-client.properties</filter>
 		</filters>
 	</build>
+
 
  	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
