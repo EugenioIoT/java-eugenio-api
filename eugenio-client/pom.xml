@@ -10,7 +10,7 @@
 	<packaging>jar</packaging>
 
 	<name>eugenio-client</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Eugenio client api</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,8 +19,8 @@
 		<eugenio.username>username_change</eugenio.username>
 		<eugenio.password>password_change</eugenio.password>
 		<eugenio.tenant>tenant_change</eugenio.tenant>
-		<eugenio.uri>https://portal.stg.eugenio.io/api/v1</eugenio.uri>
 		<eugenio.apikey>apikey_change</eugenio.apikey>
+		<eugenio.uri>https://portal.stg.eugenio.io/api/v1</eugenio.uri>
 	</properties>
 
 	<build>
@@ -71,6 +71,7 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
