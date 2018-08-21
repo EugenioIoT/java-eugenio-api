@@ -1,6 +1,6 @@
 # Eugenio Api Client
 
-#About
+## About
 This is an abstraction of Eugenio Api developed in Java, based on [Eugenio Api documentation](https://portal.stg.eugenio.io/api-docs/#basic-concepts).
 In the last version, the following clients have been implemented:
 
@@ -11,8 +11,8 @@ In the last version, the following clients have been implemented:
 * Thing Api
 * Things Invoke Api
 
-#Instructions
-###How to build application
+## Instructions
+### How to build application
 First of all you need fill the pom.xml with valid Eugenio's login information.
 
 ```
