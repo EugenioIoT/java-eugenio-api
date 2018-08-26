@@ -31,3 +31,7 @@ mvn install
 The JUnit Tests will be runned.
 
 If you want to run the JUnit Test by the IDE, you need fill the file src/test/resources/eugenio-client.properties with valid Eugenio's login information.
+
+## License
+
+Licensed under the terms of `Apache 2 License`. See attached file LICENSE.txt.
